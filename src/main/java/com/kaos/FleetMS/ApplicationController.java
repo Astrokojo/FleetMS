@@ -9,4 +9,8 @@ public class ApplicationController {
     public String home(){
         return "index";
     }
+    @GetMapping("/users-profile")
+    public String widget(){
+        return "users-profile";
+    }
 }
